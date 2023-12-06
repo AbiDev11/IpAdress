@@ -5,7 +5,7 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 clear
 apt install jq curl -y >/dev/null 2>&1
 read -rp "Sub Domain (Contoh: revip3): " -e sub
-DOMAIN=riyanvpn.my.id
+DOMAIN=netwoork.me
 SUB_DOMAIN=${sub}.netwoork.me
 CF_ID=abiputrapratama34@gmail.com
 CF_KEY=36fca99bfa65b911f4685cf7e89c83e65a5c2
